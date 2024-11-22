@@ -1,0 +1,79 @@
+{
+"Incidentes":[
+ {
+  "Ticket": 1,
+  "Problema": "no se puede digitalizar el documento de asignación familiar en X, a la hora de realizar la digitalizacion",
+  "Solucion": "debe visualizar el estado del documento en consulta estado de documento, antes de digitalizar documento"
+ },
+ {
+  "Ticket": 2,
+  "Problema": "retorna el error codigo 31 en X al momento de querer activar la tarjeta",
+  "Solucion": "obtener print de pantalla y enviar manualmente al area de operaciones cuando la solicitud se encuentra entregada pendiente de activacion. ya que la tarjeta se encuentra activada en el banco."
+ },
+ {
+  "Ticket": 3,
+  "Problema": "no responde el reporte de comprobantes en el modulo de consultas del servidor de reportes al momento de intentar imprimir",
+  "Solucion": "solicitar el reinicio del servidor X a la mesa. ya que es posible que el servidor de reportes no se encuentre operativo, una vez operativo se puede intentar reimprimir"
+ },
+ {
+  "Ticket": 4,
+  "Problema": "no es posible cerrar cuenta vista X en el portal de X al momento de intentar cerrar la cuenta",
+  "Solucion": "consultar si tiene monto utilizado igual a cero en su fondo de emergencia a la hora de querer realizar el cierre del producto. ya que debe tener monto utilizado igual a cero, para realizar el cierre del producto"
+ },
+ {
+  "Ticket": 5,
+  "Problema": "no aparece el nombre del contratante al activar la tarjeta X en el formulario de X al momento de presionar el boton buscar",
+  "Solucion": "revisar el estado de la solicitud de regeneración de tarjeta en la consulta solicitud antes de activar tarjeta. Debe estar en estado entregada pendiente de activación."
+ },
+ {
+  "Ticket": 6,
+  "Problema": "no se visualizan preguntas en formulario de firma digital al firmar documentos de credito en forma remota",
+  "Solucion": "verificar que cedúla de identidad se encuentre vigente en registro civil (https:\/\/www.registrocivil.cl\/principal\/servicios-en-linea\/consulta-vigencia-documento-1)"
+ },
+ {
+  "Ticket": 7,
+  "Problema": "no descarga el archivo de liquidacion de pension al consultar liquidaciones desde X o sucursal virtual, al momento de intentar realizar la descarga",
+  "Solucion": "verificar que su browser tenga habilitado el popup en la configuracion del navegador que se encuentre utilizando"
+ },
+ {
+  "Ticket": 8,
+  "Problema": "al solicitar clave pago en comercios en la sucursal virtual al momento de intentar representar a el cliente",
+  "Solucion": "informar que la opcion está deshabilitada, ya que no está permitido representar a el cliente. ya que esta opción se deshabilitó por seguridad, no está permitido representar a un cliente para solicitar clave. solo puede realizarlo directamente el cliente."
+ },
+ {
+  "Ticket": 9,
+  "Problema": "se visualiza error 403 forbidden en el portal X al momento de ingresar al sistema",
+  "Solucion": "ingresar al sistema en portal y en X, al ingresar al sistema es probable que no tenga acceso al sistema, debe solicitar acceso a su jefatura directa a través de X"
+ },
+ {
+  "Ticket": 10,
+  "Problema": "al simular el crédito remoto nuevo en X al momento de simular crédito",
+  "Solucion": "al ingresar se visualiza crédito remoto refinanciamiento en X al momento de simular crédito. Debe cerrar todas las páginas, abrir nueva ventana privada y loguearse nuevamente en X"
+ },
+ {
+  "Ticket": 11,
+  "Problema": "no se puede generar el ingreso de cuota mortuoria en el aplicativo de X al momento de generar ingreso de cuota mortuoria documento prellenado arroja error",
+  "Solucion": "El solicitante de la cuota mortuoria beneficiario\/representante legal de la funeraria debe tener registrado fecha de nacimiento, estado civil y el email en los datos de la persona en X"
+ },
+ {
+  "Ticket": 12,
+  "Problema": "no puede hacer una solicitud prepago de crédito en X. no arroja el baucher",
+  "Solucion": "intentar realizar el proceso nuevamente en X, de no funcionar solicite el reincio de reportes.X.cl a la mesa de servicios ti"
+ },
+ {
+  "Ticket": 13,
+  "Problema": "la usuaria trata de hacer simulación en X, al momento de seleccionar el botón la pagina queda en blanco",
+  "Solucion": "se debe solicitar reinicio del cluster a la mesa de servicios ti, ya que en estos casos es probable que haya problemas con los servicios"
+ },
+ {
+  "Ticket": 14,
+  "Problema": "no se puede subir el certificado de deudas en el modulo de gestión de créditos, al momento de intentar subir los certificados de deudas",
+  "Solucion": "se debe solicitar el reinicio del servicio proxy reverso a la mesa de servicios ti"
+ },
+ {
+  "Ticket": 15,
+  "Problema": "no permite visualizar los documentos para imprimir un crédito en X, al momento de querer visualizar los documentos para imprimir un credito",
+  "Solucion": "se debe confirmar que le haya llegado la copia de los documentos al cliente, si es que no se visualizan los documentos. y recordar que los documentos se deben obtener desde la consulta de créditos"
+ }
+]
+}
